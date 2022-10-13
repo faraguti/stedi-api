@@ -1,0 +1,5 @@
+{
+    "csharp.suppressDotnetRestoreNotification": false,
+    "workbench.colorTheme": "dark",
+    "redhat.telemetry.enabled": false
+}

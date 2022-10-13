@@ -1,0 +1,229 @@
+0 verbose cli [
+0 verbose cli   '/usr/local/nvm/versions/node/v12.14.1/bin/node',
+0 verbose cli   '/usr/local/nvm/versions/node/v12.14.1/bin/npm',
+0 verbose cli   'install'
+0 verbose cli ]
+1 info using npm@8.5.5
+2 info using node@v12.14.1
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/local/nvm/versions/node/v12.14.1/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/home/gon19006/cit270-rest-api/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:/home/gon19006/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/local/nvm/versions/node/v12.14.1/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 10ms
+19 timing npm:load:configload Completed in 10ms
+20 timing npm:load:setTitle Completed in 0ms
+21 timing config:load:flatten Completed in 2ms
+22 timing npm:load:display Completed in 4ms
+23 verbose logfile /home/gon19006/.npm/_logs/2022-03-25T23_32_57_039Z-debug-0.log
+24 timing npm:load:logFile Completed in 4ms
+25 timing npm:load:timers Completed in 0ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 21ms
+28 timing arborist:ctor Completed in 1ms
+29 timing idealTree:init Completed in 81ms
+30 timing idealTree:userRequests Completed in 0ms
+31 silly idealTree buildDeps
+32 timing idealTree:#root Completed in 1ms
+33 timing idealTree:buildDeps Completed in 3ms
+34 timing idealTree:fixDepFlags Completed in 0ms
+35 timing idealTree Completed in 89ms
+36 timing reify:loadTrees Completed in 97ms
+37 timing reify:diffTrees Completed in 2ms
+38 silly reify moves {}
+39 timing reify:retireShallow Completed in 0ms
+40 timing reify:createSparse Completed in 13ms
+41 timing reify:loadBundles Completed in 0ms
+42 silly audit bulk request {
+42 silly audit   accepts: [ '1.3.7' ],
+42 silly audit   'array-flatten': [ '1.1.1' ],
+42 silly audit   'body-parser': [ '1.19.1' ],
+42 silly audit   bytes: [ '3.1.1' ],
+42 silly audit   charenc: [ '0.0.2' ],
+42 silly audit   'content-disposition': [ '0.5.4' ],
+42 silly audit   'content-type': [ '1.0.4' ],
+42 silly audit   cookie: [ '0.4.1' ],
+42 silly audit   'cookie-signature': [ '1.0.6' ],
+42 silly audit   crypt: [ '0.0.2' ],
+42 silly audit   debug: [ '2.6.9' ],
+42 silly audit   depd: [ '1.1.2' ],
+42 silly audit   destroy: [ '1.0.4' ],
+42 silly audit   'ee-first': [ '1.1.1' ],
+42 silly audit   encodeurl: [ '1.0.2' ],
+42 silly audit   'escape-html': [ '1.0.3' ],
+42 silly audit   etag: [ '1.8.1' ],
+42 silly audit   express: [ '4.17.2' ],
+42 silly audit   finalhandler: [ '1.1.2' ],
+42 silly audit   forwarded: [ '0.2.0' ],
+42 silly audit   fresh: [ '0.5.2' ],
+42 silly audit   'http-errors': [ '1.8.1' ],
+42 silly audit   'iconv-lite': [ '0.4.24' ],
+42 silly audit   inherits: [ '2.0.4' ],
+42 silly audit   'ipaddr.js': [ '1.9.1' ],
+42 silly audit   'is-buffer': [ '1.1.6' ],
+42 silly audit   md5: [ '2.3.0' ],
+42 silly audit   'media-typer': [ '0.3.0' ],
+42 silly audit   'merge-descriptors': [ '1.0.1' ],
+42 silly audit   methods: [ '1.1.2' ],
+42 silly audit   mime: [ '1.6.0' ],
+42 silly audit   'mime-db': [ '1.51.0' ],
+42 silly audit   'mime-types': [ '2.1.34' ],
+42 silly audit   ms: [ '2.0.0', '2.1.3' ],
+42 silly audit   negotiator: [ '0.6.2' ],
+42 silly audit   'on-finished': [ '2.3.0' ],
+42 silly audit   parseurl: [ '1.3.3' ],
+42 silly audit   'path-to-regexp': [ '0.1.7' ],
+42 silly audit   'proxy-addr': [ '2.0.7' ],
+42 silly audit   qs: [ '6.9.6' ],
+42 silly audit   'range-parser': [ '1.2.1' ],
+42 silly audit   'raw-body': [ '2.4.2' ],
+42 silly audit   'safe-buffer': [ '5.2.1' ],
+42 silly audit   'safer-buffer': [ '2.1.2' ],
+42 silly audit   send: [ '0.17.2' ],
+42 silly audit   'serve-static': [ '1.14.2' ],
+42 silly audit   setprototypeof: [ '1.2.0' ],
+42 silly audit   statuses: [ '1.5.0' ],
+42 silly audit   toidentifier: [ '1.0.1' ],
+42 silly audit   'type-is': [ '1.6.18' ],
+42 silly audit   unpipe: [ '1.0.0' ],
+42 silly audit   'utils-merge': [ '1.0.1' ],
+42 silly audit   vary: [ '1.1.2' ]
+42 silly audit }
+43 timing reifyNode:node_modules/ms Completed in 220ms
+44 timing reifyNode:node_modules/escape-html Completed in 221ms
+45 timing reifyNode:node_modules/ee-first Completed in 221ms
+46 timing reifyNode:node_modules/destroy Completed in 221ms
+47 timing reifyNode:node_modules/crypt Completed in 221ms
+48 timing reifyNode:node_modules/charenc Completed in 222ms
+49 timing reifyNode:node_modules/array-flatten Completed in 219ms
+50 timing reifyNode:node_modules/utils-merge Completed in 232ms
+51 timing reifyNode:node_modules/toidentifier Completed in 232ms
+52 timing reifyNode:node_modules/type-is Completed in 232ms
+53 timing reifyNode:node_modules/unpipe Completed in 232ms
+54 timing reifyNode:node_modules/range-parser Completed in 233ms
+55 timing reifyNode:node_modules/parseurl Completed in 233ms
+56 timing reifyNode:node_modules/path-to-regexp Completed in 233ms
+57 timing reifyNode:node_modules/on-finished Completed in 234ms
+58 timing reifyNode:node_modules/methods Completed in 233ms
+59 timing reifyNode:node_modules/merge-descriptors Completed in 233ms
+60 timing reifyNode:node_modules/media-typer Completed in 233ms
+61 timing reifyNode:node_modules/inherits Completed in 234ms
+62 timing reifyNode:node_modules/fresh Completed in 233ms
+63 timing reifyNode:node_modules/forwarded Completed in 233ms
+64 timing reifyNode:node_modules/finalhandler Completed in 234ms
+65 timing reifyNode:node_modules/etag Completed in 234ms
+66 timing reifyNode:node_modules/encodeurl Completed in 234ms
+67 timing reifyNode:node_modules/cookie-signature Completed in 234ms
+68 timing reifyNode:node_modules/content-type Completed in 234ms
+69 timing reifyNode:node_modules/bytes Completed in 232ms
+70 timing reifyNode:node_modules/accepts Completed in 232ms
+71 timing reifyNode:node_modules/vary Completed in 240ms
+72 timing reifyNode:node_modules/send/node_modules/ms Completed in 238ms
+73 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 244ms
+74 timing auditReport:getReport Completed in 247ms
+75 silly audit report {}
+76 timing auditReport:init Completed in 0ms
+77 timing reify:audit Completed in 248ms
+78 timing reifyNode:node_modules/proxy-addr Completed in 241ms
+79 timing reifyNode:node_modules/is-buffer Completed in 241ms
+80 timing reifyNode:node_modules/http-errors Completed in 240ms
+81 timing reifyNode:node_modules/cookie Completed in 240ms
+82 timing reifyNode:node_modules/setprototypeof Completed in 244ms
+83 timing reifyNode:node_modules/serve-static Completed in 244ms
+84 timing reifyNode:node_modules/mime-types Completed in 243ms
+85 timing reifyNode:node_modules/content-disposition Completed in 242ms
+86 timing reifyNode:node_modules/safe-buffer Completed in 245ms
+87 timing reifyNode:node_modules/raw-body Completed in 246ms
+88 timing reifyNode:node_modules/statuses Completed in 248ms
+89 timing reifyNode:node_modules/send Completed in 250ms
+90 timing reifyNode:node_modules/safer-buffer Completed in 249ms
+91 timing reifyNode:node_modules/negotiator Completed in 254ms
+92 timing reifyNode:node_modules/ipaddr.js Completed in 254ms
+93 timing reifyNode:node_modules/md5 Completed in 259ms
+94 timing reifyNode:node_modules/mime Completed in 261ms
+95 timing reifyNode:node_modules/depd Completed in 264ms
+96 timing reifyNode:node_modules/body-parser Completed in 274ms
+97 timing reifyNode:node_modules/mime-db Completed in 279ms
+98 timing reifyNode:node_modules/debug Completed in 279ms
+99 timing reifyNode:node_modules/qs Completed in 287ms
+100 timing reifyNode:node_modules/express Completed in 285ms
+101 timing reifyNode:node_modules/iconv-lite Completed in 288ms
+102 timing reify:unpack Completed in 291ms
+103 timing reify:unretire Completed in 1ms
+104 timing build:queue Completed in 3ms
+105 timing build:link:node_modules/mime Completed in 3ms
+106 timing build:link Completed in 3ms
+107 timing build:deps Completed in 6ms
+108 timing build Completed in 6ms
+109 timing reify:build Completed in 6ms
+110 timing reify:trash Completed in 0ms
+111 timing reify:save Completed in 13ms
+112 timing reify Completed in 460ms
+113 silly ADD node_modules/vary
+114 silly ADD node_modules/utils-merge
+115 silly ADD node_modules/unpipe
+116 silly ADD node_modules/type-is
+117 silly ADD node_modules/toidentifier
+118 silly ADD node_modules/statuses
+119 silly ADD node_modules/setprototypeof
+120 silly ADD node_modules/serve-static
+121 silly ADD node_modules/send
+122 silly ADD node_modules/send/node_modules/ms
+123 silly ADD node_modules/safer-buffer
+124 silly ADD node_modules/safe-buffer
+125 silly ADD node_modules/raw-body
+126 silly ADD node_modules/range-parser
+127 silly ADD node_modules/qs
+128 silly ADD node_modules/proxy-addr
+129 silly ADD node_modules/path-to-regexp
+130 silly ADD node_modules/parseurl
+131 silly ADD node_modules/on-finished
+132 silly ADD node_modules/negotiator
+133 silly ADD node_modules/ms
+134 silly ADD node_modules/mime-types
+135 silly ADD node_modules/mime-db
+136 silly ADD node_modules/mime
+137 silly ADD node_modules/methods
+138 silly ADD node_modules/merge-descriptors
+139 silly ADD node_modules/media-typer
+140 silly ADD node_modules/md5
+141 silly ADD node_modules/is-buffer
+142 silly ADD node_modules/ipaddr.js
+143 silly ADD node_modules/inherits
+144 silly ADD node_modules/iconv-lite
+145 silly ADD node_modules/http-errors
+146 silly ADD node_modules/fresh
+147 silly ADD node_modules/forwarded
+148 silly ADD node_modules/finalhandler
+149 silly ADD node_modules/express
+150 silly ADD node_modules/etag
+151 silly ADD node_modules/escape-html
+152 silly ADD node_modules/encodeurl
+153 silly ADD node_modules/ee-first
+154 silly ADD node_modules/destroy
+155 silly ADD node_modules/depd
+156 silly ADD node_modules/debug
+157 silly ADD node_modules/crypt
+158 silly ADD node_modules/cookie-signature
+159 silly ADD node_modules/cookie
+160 silly ADD node_modules/content-type
+161 silly ADD node_modules/content-disposition
+162 silly ADD node_modules/charenc
+163 silly ADD node_modules/bytes
+164 silly ADD node_modules/body-parser
+165 silly ADD node_modules/array-flatten
+166 silly ADD node_modules/accepts
+167 timing command:install Completed in 473ms
+168 verbose exit 0
+169 timing npm Completed in 704ms
+170 info ok

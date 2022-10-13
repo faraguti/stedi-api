@@ -1,0 +1,338 @@
+0 verbose cli [
+0 verbose cli   '/usr/local/nvm/versions/node/v12.14.1/bin/node',
+0 verbose cli   '/usr/local/nvm/versions/node/v12.14.1/bin/npm',
+0 verbose cli   'install'
+0 verbose cli ]
+1 info using npm@8.5.5
+2 info using node@v12.14.1
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/local/nvm/versions/node/v12.14.1/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/home/gon19006/cit270-rest-api/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 2ms
+11 timing config:load:file:/home/gon19006/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/local/nvm/versions/node/v12.14.1/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 2ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 14ms
+19 timing npm:load:configload Completed in 15ms
+20 timing npm:load:setTitle Completed in 0ms
+21 timing config:load:flatten Completed in 3ms
+22 timing npm:load:display Completed in 4ms
+23 verbose logfile /home/gon19006/.npm/_logs/2022-03-25T22_42_07_200Z-debug-0.log
+24 timing npm:load:logFile Completed in 5ms
+25 timing npm:load:timers Completed in 0ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 25ms
+28 timing arborist:ctor Completed in 1ms
+29 timing idealTree:init Completed in 62ms
+30 timing idealTree:userRequests Completed in 0ms
+31 silly idealTree buildDeps
+32 timing idealTree:#root Completed in 1ms
+33 timing idealTree:buildDeps Completed in 3ms
+34 timing idealTree:fixDepFlags Completed in 0ms
+35 timing idealTree Completed in 70ms
+36 timing reify:loadTrees Completed in 77ms
+37 timing reify:diffTrees Completed in 3ms
+38 silly reify moves {}
+39 timing reify:retireShallow Completed in 0ms
+40 timing reify:createSparse Completed in 19ms
+41 timing reify:loadBundles Completed in 0ms
+42 silly audit bulk request {
+42 silly audit   accepts: [ '1.3.7' ],
+42 silly audit   'array-flatten': [ '1.1.1' ],
+42 silly audit   'body-parser': [ '1.19.1' ],
+42 silly audit   bytes: [ '3.1.1' ],
+42 silly audit   charenc: [ '0.0.2' ],
+42 silly audit   'content-disposition': [ '0.5.4' ],
+42 silly audit   'content-type': [ '1.0.4' ],
+42 silly audit   cookie: [ '0.4.1' ],
+42 silly audit   'cookie-signature': [ '1.0.6' ],
+42 silly audit   crypt: [ '0.0.2' ],
+42 silly audit   debug: [ '2.6.9' ],
+42 silly audit   depd: [ '1.1.2' ],
+42 silly audit   destroy: [ '1.0.4' ],
+42 silly audit   'ee-first': [ '1.1.1' ],
+42 silly audit   encodeurl: [ '1.0.2' ],
+42 silly audit   'escape-html': [ '1.0.3' ],
+42 silly audit   etag: [ '1.8.1' ],
+42 silly audit   express: [ '4.17.2' ],
+42 silly audit   finalhandler: [ '1.1.2' ],
+42 silly audit   forwarded: [ '0.2.0' ],
+42 silly audit   fresh: [ '0.5.2' ],
+42 silly audit   'http-errors': [ '1.8.1' ],
+42 silly audit   'iconv-lite': [ '0.4.24' ],
+42 silly audit   inherits: [ '2.0.4' ],
+42 silly audit   'ipaddr.js': [ '1.9.1' ],
+42 silly audit   'is-buffer': [ '1.1.6' ],
+42 silly audit   md5: [ '2.3.0' ],
+42 silly audit   'media-typer': [ '0.3.0' ],
+42 silly audit   'merge-descriptors': [ '1.0.1' ],
+42 silly audit   methods: [ '1.1.2' ],
+42 silly audit   mime: [ '1.6.0' ],
+42 silly audit   'mime-db': [ '1.51.0' ],
+42 silly audit   'mime-types': [ '2.1.34' ],
+42 silly audit   ms: [ '2.0.0', '2.1.3' ],
+42 silly audit   negotiator: [ '0.6.2' ],
+42 silly audit   'on-finished': [ '2.3.0' ],
+42 silly audit   parseurl: [ '1.3.3' ],
+42 silly audit   'path-to-regexp': [ '0.1.7' ],
+42 silly audit   'proxy-addr': [ '2.0.7' ],
+42 silly audit   qs: [ '6.9.6' ],
+42 silly audit   'range-parser': [ '1.2.1' ],
+42 silly audit   'raw-body': [ '2.4.2' ],
+42 silly audit   'safe-buffer': [ '5.2.1' ],
+42 silly audit   'safer-buffer': [ '2.1.2' ],
+42 silly audit   send: [ '0.17.2' ],
+42 silly audit   'serve-static': [ '1.14.2' ],
+42 silly audit   setprototypeof: [ '1.2.0' ],
+42 silly audit   statuses: [ '1.5.0' ],
+42 silly audit   toidentifier: [ '1.0.1' ],
+42 silly audit   'type-is': [ '1.6.18' ],
+42 silly audit   unpipe: [ '1.0.0' ],
+42 silly audit   'utils-merge': [ '1.0.1' ],
+42 silly audit   vary: [ '1.1.2' ]
+42 silly audit }
+43 silly tarball no local data for vary@https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz. Extracting by manifest.
+44 silly tarball no local data for utils-merge@https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz. Extracting by manifest.
+45 silly tarball no local data for unpipe@https://registry.yarnpkg.com/unpipe/-/unpipe-1.0.0.tgz. Extracting by manifest.
+46 silly tarball no local data for type-is@https://registry.yarnpkg.com/type-is/-/type-is-1.6.18.tgz. Extracting by manifest.
+47 silly tarball no local data for toidentifier@https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.1.tgz. Extracting by manifest.
+48 silly tarball no local data for statuses@https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz. Extracting by manifest.
+49 silly tarball no local data for setprototypeof@https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.2.0.tgz. Extracting by manifest.
+50 silly tarball no local data for send@https://registry.yarnpkg.com/send/-/send-0.17.2.tgz. Extracting by manifest.
+51 silly tarball no local data for safer-buffer@https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz. Extracting by manifest.
+52 silly tarball no local data for safe-buffer@https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz. Extracting by manifest.
+53 silly tarball no local data for raw-body@https://registry.yarnpkg.com/raw-body/-/raw-body-2.4.2.tgz. Extracting by manifest.
+54 silly tarball no local data for range-parser@https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.1.tgz. Extracting by manifest.
+55 silly tarball no local data for qs@https://registry.yarnpkg.com/qs/-/qs-6.9.6.tgz. Extracting by manifest.
+56 silly tarball no local data for proxy-addr@https://registry.yarnpkg.com/proxy-addr/-/proxy-addr-2.0.7.tgz. Extracting by manifest.
+57 silly tarball no local data for path-to-regexp@https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz. Extracting by manifest.
+58 silly tarball no local data for parseurl@https://registry.yarnpkg.com/parseurl/-/parseurl-1.3.3.tgz. Extracting by manifest.
+59 silly tarball no local data for on-finished@https://registry.yarnpkg.com/on-finished/-/on-finished-2.3.0.tgz. Extracting by manifest.
+60 silly tarball no local data for negotiator@https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.2.tgz. Extracting by manifest.
+61 silly tarball no local data for ms@https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz. Extracting by manifest.
+62 silly tarball no local data for mime-types@https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.34.tgz. Extracting by manifest.
+63 silly tarball no local data for mime-db@https://registry.yarnpkg.com/mime-db/-/mime-db-1.51.0.tgz. Extracting by manifest.
+64 silly tarball no local data for mime@https://registry.yarnpkg.com/mime/-/mime-1.6.0.tgz. Extracting by manifest.
+65 silly tarball no local data for methods@https://registry.yarnpkg.com/methods/-/methods-1.1.2.tgz. Extracting by manifest.
+66 silly tarball no local data for merge-descriptors@https://registry.yarnpkg.com/merge-descriptors/-/merge-descriptors-1.0.1.tgz. Extracting by manifest.
+67 silly tarball no local data for media-typer@https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz. Extracting by manifest.
+68 silly tarball no local data for md5@https://registry.yarnpkg.com/md5/-/md5-2.3.0.tgz. Extracting by manifest.
+69 silly tarball no local data for is-buffer@https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.6.tgz. Extracting by manifest.
+70 silly tarball no local data for ipaddr.js@https://registry.yarnpkg.com/ipaddr.js/-/ipaddr.js-1.9.1.tgz. Extracting by manifest.
+71 silly tarball no local data for inherits@https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz. Extracting by manifest.
+72 silly tarball no local data for iconv-lite@https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz. Extracting by manifest.
+73 silly tarball no local data for http-errors@https://registry.yarnpkg.com/http-errors/-/http-errors-1.8.1.tgz. Extracting by manifest.
+74 silly tarball no local data for fresh@https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz. Extracting by manifest.
+75 silly tarball no local data for forwarded@https://registry.yarnpkg.com/forwarded/-/forwarded-0.2.0.tgz. Extracting by manifest.
+76 silly tarball no local data for finalhandler@https://registry.yarnpkg.com/finalhandler/-/finalhandler-1.1.2.tgz. Extracting by manifest.
+77 silly tarball no local data for express@https://registry.yarnpkg.com/express/-/express-4.17.2.tgz. Extracting by manifest.
+78 silly tarball no local data for etag@https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz. Extracting by manifest.
+79 silly tarball no local data for escape-html@https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz. Extracting by manifest.
+80 silly tarball no local data for encodeurl@https://registry.yarnpkg.com/encodeurl/-/encodeurl-1.0.2.tgz. Extracting by manifest.
+81 silly tarball no local data for ee-first@https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz. Extracting by manifest.
+82 silly tarball no local data for destroy@https://registry.yarnpkg.com/destroy/-/destroy-1.0.4.tgz. Extracting by manifest.
+83 silly tarball no local data for depd@https://registry.yarnpkg.com/depd/-/depd-1.1.2.tgz. Extracting by manifest.
+84 silly tarball no local data for debug@https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz. Extracting by manifest.
+85 silly tarball no local data for crypt@https://registry.yarnpkg.com/crypt/-/crypt-0.0.2.tgz. Extracting by manifest.
+86 silly tarball no local data for cookie-signature@https://registry.yarnpkg.com/cookie-signature/-/cookie-signature-1.0.6.tgz. Extracting by manifest.
+87 silly tarball no local data for cookie@https://registry.yarnpkg.com/cookie/-/cookie-0.4.1.tgz. Extracting by manifest.
+88 silly tarball no local data for content-type@https://registry.yarnpkg.com/content-type/-/content-type-1.0.4.tgz. Extracting by manifest.
+89 silly tarball no local data for content-disposition@https://registry.yarnpkg.com/content-disposition/-/content-disposition-0.5.4.tgz. Extracting by manifest.
+90 silly tarball no local data for bytes@https://registry.yarnpkg.com/bytes/-/bytes-3.1.1.tgz. Extracting by manifest.
+91 silly tarball no local data for body-parser@https://registry.yarnpkg.com/body-parser/-/body-parser-1.19.1.tgz. Extracting by manifest.
+92 silly tarball no local data for array-flatten@https://registry.yarnpkg.com/array-flatten/-/array-flatten-1.1.1.tgz. Extracting by manifest.
+93 silly tarball no local data for accepts@https://registry.yarnpkg.com/accepts/-/accepts-1.3.7.tgz. Extracting by manifest.
+94 silly tarball no local data for charenc@https://registry.yarnpkg.com/charenc/-/charenc-0.0.2.tgz. Extracting by manifest.
+95 silly tarball no local data for ms@https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz. Extracting by manifest.
+96 silly tarball no local data for serve-static@https://registry.yarnpkg.com/serve-static/-/serve-static-1.14.2.tgz. Extracting by manifest.
+97 http fetch GET 200 https://registry.yarnpkg.com/npm 314ms (cache miss)
+98 http fetch POST 200 https://registry.yarnpkg.com/-/npm/v1/security/advisories/bulk 228ms
+99 timing auditReport:getReport Completed in 231ms
+100 silly audit report {}
+101 timing auditReport:init Completed in 0ms
+102 timing reify:audit Completed in 233ms
+103 http fetch GET 200 https://registry.yarnpkg.com/proxy-addr/-/proxy-addr-2.0.7.tgz 475ms (cache miss)
+104 timing reifyNode:node_modules/proxy-addr Completed in 549ms
+105 http fetch GET 200 https://registry.yarnpkg.com/parseurl/-/parseurl-1.3.3.tgz 487ms (cache miss)
+106 timing reifyNode:node_modules/parseurl Completed in 569ms
+107 http fetch GET 200 https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.1.tgz 539ms (cache miss)
+108 timing reifyNode:node_modules/range-parser Completed in 614ms
+109 http fetch GET 200 https://registry.yarnpkg.com/methods/-/methods-1.1.2.tgz 527ms (cache miss)
+110 timing reifyNode:node_modules/methods Completed in 614ms
+111 http fetch GET 200 https://registry.yarnpkg.com/unpipe/-/unpipe-1.0.0.tgz 562ms (cache miss)
+112 timing reifyNode:node_modules/unpipe Completed in 621ms
+113 http fetch GET 200 https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.1.tgz 561ms (cache miss)
+114 timing reifyNode:node_modules/toidentifier Completed in 622ms
+115 http fetch GET 200 https://registry.yarnpkg.com/body-parser/-/body-parser-1.19.1.tgz 513ms (cache miss)
+116 timing reifyNode:node_modules/body-parser Completed in 617ms
+117 http fetch GET 200 https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz 568ms (cache miss)
+118 timing reifyNode:node_modules/utils-merge Completed in 626ms
+119 http fetch GET 200 https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz 545ms (cache miss)
+120 timing reifyNode:node_modules/path-to-regexp Completed in 625ms
+121 http fetch GET 200 https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz 571ms (cache miss)
+122 timing reifyNode:node_modules/vary Completed in 629ms
+123 http fetch GET 200 https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz 543ms (cache miss)
+124 timing reifyNode:node_modules/ms Completed in 627ms
+125 http fetch GET 200 https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.6.tgz 538ms (cache miss)
+126 timing reifyNode:node_modules/is-buffer Completed in 626ms
+127 http fetch GET 200 https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.2.0.tgz 562ms (cache miss)
+128 timing reifyNode:node_modules/setprototypeof Completed in 631ms
+129 http fetch GET 200 https://registry.yarnpkg.com/on-finished/-/on-finished-2.3.0.tgz 549ms (cache miss)
+130 timing reifyNode:node_modules/on-finished Completed in 631ms
+131 http fetch GET 200 https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz 540ms (cache miss)
+132 timing reifyNode:node_modules/fresh Completed in 629ms
+133 http fetch GET 200 https://registry.yarnpkg.com/forwarded/-/forwarded-0.2.0.tgz 539ms (cache miss)
+134 timing reifyNode:node_modules/forwarded Completed in 630ms
+135 http fetch GET 200 https://registry.yarnpkg.com/encodeurl/-/encodeurl-1.0.2.tgz 537ms (cache miss)
+136 timing reifyNode:node_modules/encodeurl Completed in 630ms
+137 http fetch GET 200 https://registry.yarnpkg.com/type-is/-/type-is-1.6.18.tgz 580ms (cache miss)
+138 timing reifyNode:node_modules/type-is Completed in 640ms
+139 http fetch GET 200 https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz 579ms (cache miss)
+140 timing reifyNode:node_modules/statuses Completed in 641ms
+141 http fetch GET 200 https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz 549ms (cache miss)
+142 timing reifyNode:node_modules/inherits Completed in 638ms
+143 http fetch GET 200 https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz 544ms (cache miss)
+144 timing reifyNode:node_modules/etag Completed in 637ms
+145 http fetch GET 200 https://registry.yarnpkg.com/merge-descriptors/-/merge-descriptors-1.0.1.tgz 557ms (cache miss)
+146 timing reifyNode:node_modules/merge-descriptors Completed in 643ms
+147 http fetch GET 200 https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz 560ms (cache miss)
+148 timing reifyNode:node_modules/media-typer Completed in 647ms
+149 http fetch GET 200 https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz 550ms (cache miss)
+150 timing reifyNode:node_modules/ee-first Completed in 644ms
+151 http fetch GET 200 https://registry.yarnpkg.com/content-type/-/content-type-1.0.4.tgz 546ms (cache miss)
+152 timing reifyNode:node_modules/content-type Completed in 645ms
+153 http fetch GET 200 https://registry.yarnpkg.com/raw-body/-/raw-body-2.4.2.tgz 579ms (cache miss)
+154 timing reifyNode:node_modules/raw-body Completed in 652ms
+155 http fetch GET 200 https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.34.tgz 568ms (cache miss)
+156 timing reifyNode:node_modules/mime-types Completed in 652ms
+157 http fetch GET 200 https://registry.yarnpkg.com/http-errors/-/http-errors-1.8.1.tgz 560ms (cache miss)
+158 timing reifyNode:node_modules/http-errors Completed in 652ms
+159 http fetch GET 200 https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz 558ms (cache miss)
+160 timing reifyNode:node_modules/escape-html Completed in 650ms
+161 http fetch GET 200 https://registry.yarnpkg.com/destroy/-/destroy-1.0.4.tgz 556ms (cache miss)
+162 timing reifyNode:node_modules/destroy Completed in 651ms
+163 http fetch GET 200 https://registry.yarnpkg.com/charenc/-/charenc-0.0.2.tgz 545ms (cache miss)
+164 timing reifyNode:node_modules/charenc Completed in 651ms
+165 http fetch GET 200 https://registry.yarnpkg.com/crypt/-/crypt-0.0.2.tgz 557ms (cache miss)
+166 timing reifyNode:node_modules/crypt Completed in 655ms
+167 http fetch GET 200 https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz 590ms (cache miss)
+168 timing reifyNode:node_modules/safe-buffer Completed in 662ms
+169 http fetch GET 200 https://registry.yarnpkg.com/finalhandler/-/finalhandler-1.1.2.tgz 567ms (cache miss)
+170 timing reifyNode:node_modules/finalhandler Completed in 657ms
+171 http fetch GET 200 https://registry.yarnpkg.com/cookie-signature/-/cookie-signature-1.0.6.tgz 560ms (cache miss)
+172 timing reifyNode:node_modules/cookie-signature Completed in 657ms
+173 http fetch GET 200 https://registry.yarnpkg.com/bytes/-/bytes-3.1.1.tgz 554ms (cache miss)
+174 timing reifyNode:node_modules/bytes Completed in 657ms
+175 http fetch GET 200 https://registry.yarnpkg.com/array-flatten/-/array-flatten-1.1.1.tgz 554ms (cache miss)
+176 timing reifyNode:node_modules/array-flatten Completed in 658ms
+177 http fetch GET 200 https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz 551ms (cache miss)
+178 timing reifyNode:node_modules/send/node_modules/ms Completed in 665ms
+179 http fetch GET 200 https://registry.yarnpkg.com/depd/-/depd-1.1.2.tgz 567ms (cache miss)
+180 timing reifyNode:node_modules/depd Completed in 662ms
+181 http fetch GET 200 https://registry.yarnpkg.com/cookie/-/cookie-0.4.1.tgz 564ms (cache miss)
+182 timing reifyNode:node_modules/cookie Completed in 662ms
+183 http fetch GET 200 https://registry.yarnpkg.com/accepts/-/accepts-1.3.7.tgz 557ms (cache miss)
+184 timing reifyNode:node_modules/accepts Completed in 662ms
+185 http fetch GET 200 https://registry.yarnpkg.com/ipaddr.js/-/ipaddr.js-1.9.1.tgz 580ms (cache miss)
+186 timing reifyNode:node_modules/ipaddr.js Completed in 668ms
+187 http fetch GET 200 https://registry.yarnpkg.com/content-disposition/-/content-disposition-0.5.4.tgz 567ms (cache miss)
+188 timing reifyNode:node_modules/content-disposition Completed in 666ms
+189 http fetch GET 200 https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.2.tgz 591ms (cache miss)
+190 timing reifyNode:node_modules/negotiator Completed in 675ms
+191 http fetch GET 200 https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz 605ms (cache miss)
+192 timing reifyNode:node_modules/safer-buffer Completed in 676ms
+193 http fetch GET 200 https://registry.yarnpkg.com/send/-/send-0.17.2.tgz 608ms (cache miss)
+194 timing reifyNode:node_modules/send Completed in 678ms
+195 http fetch GET 200 https://registry.yarnpkg.com/serve-static/-/serve-static-1.14.2.tgz 565ms (cache miss)
+196 timing reifyNode:node_modules/serve-static Completed in 680ms
+197 http fetch GET 200 https://registry.yarnpkg.com/md5/-/md5-2.3.0.tgz 592ms (cache miss)
+198 timing reifyNode:node_modules/md5 Completed in 680ms
+199 http fetch GET 200 https://registry.yarnpkg.com/mime-db/-/mime-db-1.51.0.tgz 599ms (cache miss)
+200 timing reifyNode:node_modules/mime-db Completed in 684ms
+201 http fetch GET 200 https://registry.yarnpkg.com/mime/-/mime-1.6.0.tgz 599ms (cache miss)
+202 timing reifyNode:node_modules/mime Completed in 685ms
+203 http fetch GET 200 https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz 591ms (cache miss)
+204 timing reifyNode:node_modules/debug Completed in 687ms
+205 http fetch GET 200 https://registry.yarnpkg.com/express/-/express-4.17.2.tgz 598ms (cache miss)
+206 timing reifyNode:node_modules/express Completed in 689ms
+207 http fetch GET 200 https://registry.yarnpkg.com/qs/-/qs-6.9.6.tgz 628ms (cache miss)
+208 timing reifyNode:node_modules/qs Completed in 702ms
+209 http fetch GET 200 https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz 642ms (cache miss)
+210 timing reifyNode:node_modules/iconv-lite Completed in 732ms
+211 timing reify:unpack Completed in 737ms
+212 timing reify:unretire Completed in 0ms
+213 timing build:queue Completed in 7ms
+214 timing build:link:node_modules/mime Completed in 4ms
+215 timing build:link Completed in 6ms
+216 timing build:deps Completed in 14ms
+217 timing build Completed in 14ms
+218 timing reify:build Completed in 15ms
+219 timing reify:trash Completed in 0ms
+220 timing reify:save Completed in 20ms
+221 timing reify Completed in 939ms
+222 silly ADD node_modules/vary
+223 silly ADD node_modules/utils-merge
+224 silly ADD node_modules/unpipe
+225 silly ADD node_modules/type-is
+226 silly ADD node_modules/toidentifier
+227 silly ADD node_modules/statuses
+228 silly ADD node_modules/setprototypeof
+229 silly ADD node_modules/serve-static
+230 silly ADD node_modules/send
+231 silly ADD node_modules/send/node_modules/ms
+232 silly ADD node_modules/safer-buffer
+233 silly ADD node_modules/safe-buffer
+234 silly ADD node_modules/raw-body
+235 silly ADD node_modules/range-parser
+236 silly ADD node_modules/qs
+237 silly ADD node_modules/proxy-addr
+238 silly ADD node_modules/path-to-regexp
+239 silly ADD node_modules/parseurl
+240 silly ADD node_modules/on-finished
+241 silly ADD node_modules/negotiator
+242 silly ADD node_modules/ms
+243 silly ADD node_modules/mime-types
+244 silly ADD node_modules/mime-db
+245 silly ADD node_modules/mime
+246 silly ADD node_modules/methods
+247 silly ADD node_modules/merge-descriptors
+248 silly ADD node_modules/media-typer
+249 silly ADD node_modules/md5
+250 silly ADD node_modules/is-buffer
+251 silly ADD node_modules/ipaddr.js
+252 silly ADD node_modules/inherits
+253 silly ADD node_modules/iconv-lite
+254 silly ADD node_modules/http-errors
+255 silly ADD node_modules/fresh
+256 silly ADD node_modules/forwarded
+257 silly ADD node_modules/finalhandler
+258 silly ADD node_modules/express
+259 silly ADD node_modules/etag
+260 silly ADD node_modules/escape-html
+261 silly ADD node_modules/encodeurl
+262 silly ADD node_modules/ee-first
+263 silly ADD node_modules/destroy
+264 silly ADD node_modules/depd
+265 silly ADD node_modules/debug
+266 silly ADD node_modules/crypt
+267 silly ADD node_modules/cookie-signature
+268 silly ADD node_modules/cookie
+269 silly ADD node_modules/content-type
+270 silly ADD node_modules/content-disposition
+271 silly ADD node_modules/charenc
+272 silly ADD node_modules/bytes
+273 silly ADD node_modules/body-parser
+274 silly ADD node_modules/array-flatten
+275 silly ADD node_modules/accepts
+276 timing command:install Completed in 962ms
+277 verbose exit 0
+278 timing npm Completed in 1324ms
+279 info ok

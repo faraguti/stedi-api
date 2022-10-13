@@ -1,0 +1,56 @@
+0 verbose cli [
+0 verbose cli   '/usr/local/nvm/versions/node/v12.14.1/bin/node',
+0 verbose cli   '/usr/local/nvm/versions/node/v12.14.1/bin/npm',
+0 verbose cli   'init'
+0 verbose cli ]
+1 info using npm@8.5.5
+2 info using node@v12.14.1
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/local/nvm/versions/node/v12.14.1/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:file:/home/gon19006/cit270-rest-api/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 2ms
+11 timing config:load:file:/home/gon19006/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/local/nvm/versions/node/v12.14.1/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 0ms
+17 timing config:load:setEnvs Completed in 0ms
+18 timing config:load Completed in 14ms
+19 timing npm:load:configload Completed in 14ms
+20 timing npm:load:setTitle Completed in 0ms
+21 timing config:load:flatten Completed in 3ms
+22 timing npm:load:display Completed in 4ms
+23 verbose logfile /home/gon19006/.npm/_logs/2022-03-25T22_52_59_550Z-debug-0.log
+24 timing npm:load:logFile Completed in 5ms
+25 timing npm:load:timers Completed in 0ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 24ms
+28 silly package data {
+28 silly package data   name: 'node',
+28 silly package data   version: '1.0.0',
+28 silly package data   main: 'index.js',
+28 silly package data   scripts: { start: 'node server.js' },
+28 silly package data   author: '',
+28 silly package data   license: 'ISC',
+28 silly package data   dependencies: { 'body-parser': '^1.19.1', express: '^4.17.2', md5: '^2.3.0' },
+28 silly package data   devDependencies: {},
+28 silly package data   repository: {
+28 silly package data     type: 'git',
+28 silly package data     url: 'git+https://github.com/faraguti/cit270-rest-api.git'
+28 silly package data   },
+28 silly package data   bugs: { url: 'https://github.com/faraguti/cit270-rest-api/issues' },
+28 silly package data   homepage: 'https://github.com/faraguti/cit270-rest-api#readme',
+28 silly package data   description: '',
+28 silly package data   [Symbol(newline)]: '\n',
+28 silly package data   [Symbol(indent)]: '  '
+28 silly package data }
+29 info init written successfully
+30 timing command:init Completed in 11374ms
+31 verbose exit 0
+32 timing npm Completed in 11643ms
+33 info ok
