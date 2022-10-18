@@ -363,3 +363,13 @@ git init
 git@github.com:faraguti/stedi-api.git
 git init
 gid add .
+git add .
+git commit -m "first comm
+git commit -m "first commit"
+git config --global user.email
+git config --global user.email "faraguti@gmail.com"
+git config --global user.name "faraguti"
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:faraguti/stedi-api.git
+git push -u origin main
