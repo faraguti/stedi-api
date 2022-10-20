@@ -30,7 +30,7 @@ spec:
           # The name of the container is specified below
           - name: stedi-felipe
             # The image is a prebuilt file containing the operating system
-            image: nginx
+            image: faraguti/nginx_felipe
             # The ports is a list of tcp ports the pod listens on
             ports: 
               # The container port is a specific port the pod listens on
