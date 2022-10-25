@@ -373,3 +373,67 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin git@github.com:faraguti/stedi-api.git
 git push -u origin main
+git add .
+clear
+cd stedi-api/
+kuctl apply -f app.yaml
+kubectl apply -f app.yaml
+lkub
+kubectl get pods
+cd stedi-api/
+kubectl get pods
+kubectl describe pod stedi-levi-d457c577c-8kjph
+clear
+kubectl get pods
+kubectl apply -f app.yaml
+kubectl get pods
+kubectl scale deployment stedi-felipe --replicas=0
+kubectl get pods
+kubectl apply -f app.yaml
+clear
+kubectl get services
+git remote -v
+git add .
+git commit -m "app.yaml edited - second class"
+git branch -M main
+git push -u origin main
+cd stedi-api/
+kubectl apply -f app.yaml
+kubectl get services
+docker build .
+docker build . -p 8080:80
+docker build .
+docker images
+docker ps -a
+docker run -p 8080:80 5d58c024174d
+docker ps -a
+docker rm angry_franklin
+docker ps -a
+docker run -p 8080:80 2e818572ba67
+docker login
+docker build . -t faraguti/nginx_felipe
+cd stedi-api/
+docker build . -t faraguti/nginx_felipe
+docker ps -a
+docker push faraguti/nginx_felipe
+docker ps -a
+kubectl apply -f app.yaml
+docker stop nifty_jackson 
+kubectl get services
+kubectl get pods
+git add .
+git commit -m "docker and kubernetes"
+git push
+git remote
+git remote -v
+git add .
+git remote -v
+git add .
+cd stedi-api/
+ls
+git add .
+clear
+git -remote v
+git remove -v
+clear
+git remote -v
