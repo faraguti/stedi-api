@@ -437,3 +437,7 @@ git -remote v
 git remove -v
 clear
 git remote -v
+git add .
+git commit -m "reorganizing"
+git push
+kubectl get pods
