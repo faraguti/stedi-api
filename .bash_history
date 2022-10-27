@@ -441,3 +441,11 @@ git add .
 git commit -m "reorganizing"
 git push
 kubectl get pods
+kubectl get secrets
+kubectl create secret generic redis-secrets-dev-felipe --from-literal=REDIS_PASS=password
+kubectl apply -f redis-dev.yaml 
+kubectl get pods
+kubectl describepod redis-stedi-dev-felipe
+kubectl describepod redis-stedi-dev-felipe-0
+kubectl describe pod redis-stedi-dev-felipe
+clear

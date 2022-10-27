@@ -18,7 +18,7 @@ spec:
   selector:
     matchLabels:
       app: redis-stedi-dev-felipe  # has to match .spec.template.metadata.labels
-  serviceName: easy-rent-dev-redis
+  serviceName: redis-stedi-dev-felipe
   replicas: 1
   template:
     metadata:
@@ -26,18 +26,32 @@ spec:
         app: redis-stedi-dev-felipe  # has to match .spec.selector.matchLabels
     spec:
       containers:
-        - name: easy-rent-dev-redis
-          image: redis:3.2-alpine
+        - name: redis-stedi-dev-felipe
+          image: redis:7.0.5-alpine
           imagePullPolicy: Always
           args: ["--requirepass", "$(REDIS_PASS)", "--appendonly", "yes", "--save", "900", "1", "--save", "30", "2"]
           ports:
             - containerPort: 6379
               name: redis
+          # Resources are the compute resources used by the pod in the cloud
+          resources:
+            # Limites represent the max amount of cpu and memory allowed for the pod
+            limits:
+              # CPU is the max amount of CPU that can be used by the pod
+              cpu: ".125"
+              # Memory is the max amount of memory that can be used by the pod
+              memory: "500Mi"
+            # Resquests is the minimum amount of compute resources used by the pod
+            requests: 
+              # CPU is the minimum amount of CPU the pod needs to run
+              cpu: ".1"
+              # Memory is the minimum amount of memory the pod needs to run
+              memory: "250Mi"
           env:
           - name: REDIS_PASS
             valueFrom:
               secretKeyRef:
-                name: redis-secrets-dev
+                name: redis-secrets-dev-felipe
                 key: REDIS_PASS
           volumeMounts:
             - name: redis-dev-volume
