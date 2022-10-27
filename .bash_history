@@ -449,3 +449,7 @@ kubectl describepod redis-stedi-dev-felipe
 kubectl describepod redis-stedi-dev-felipe-0
 kubectl describe pod redis-stedi-dev-felipe
 clear
+cd ~
+gunzip -S .zip stedi-private-main.zip
+unzip stedi-private-main.zip 
+ls -lh
