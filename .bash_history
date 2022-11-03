@@ -470,3 +470,7 @@ kubectl get services
 kubectl get ingress
 clear
 kubectl get ingress
+git add .
+git commit -m "src folder and files"
+git push
+unzip stedi-private-main.zip 
