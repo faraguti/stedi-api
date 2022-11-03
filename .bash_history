@@ -474,3 +474,13 @@ git add .
 git commit -m "src folder and files"
 git push
 unzip stedi-private-main.zip 
+mvn --version
+whoami
+sudo apt upgrade
+clear
+cd stedi-private-main/
+ls
+cd ..
+mvn clean package
+java -jar ./target/StepTimerWebsocket-1.0-SNAPSHOT.jar 
+docker build .
