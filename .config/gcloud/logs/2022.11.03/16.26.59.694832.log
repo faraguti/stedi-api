@@ -1,0 +1,45 @@
+2022-11-03 16:26:59,699 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2022-11-03 16:26:59,709 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'config_helper']
+2022-11-03 16:26:59,714 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
+2022-11-03 16:27:05,743 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/gon19006@byui.edu/?recursive=true
+2022-11-03 16:27:05,747 DEBUG    urllib3.connectionpool Starting new HTTP connection (1): metadata.google.internal:80
+2022-11-03 16:27:05,752 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/gon19006@byui.edu/?recursive=true HTTP/1.1" 200 None
+2022-11-03 16:27:05,753 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/gon19006@byui.edu/token
+2022-11-03 16:27:05,755 DEBUG    urllib3.connectionpool Resetting dropped connection: metadata.google.internal
+2022-11-03 16:27:05,759 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/gon19006@byui.edu/token HTTP/1.1" 200 None
+2022-11-03 16:27:05,780 INFO     root            Display format: "default json"
+2022-11-03 16:27:05,781 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "default",
+    "properties": {
+      "accessibility": {
+        "screen_reader": "True"
+      },
+      "component_manager": {
+        "disable_update_check": "True"
+      },
+      "compute": {
+        "gce_metadata_read_timeout_sec": "30"
+      },
+      "core": {
+        "account": "gon19006@byui.edu",
+        "disable_usage_reporting": "True"
+      },
+      "metrics": {
+        "environment": "cloudcode.vscode",
+        "environment_version": "1.19.0"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.a0Aa4xrXOTYb65HN5B1RlEHtu0wi-9FAcuKlQuexeJ3dr76ouFvUe6FdhA-EiyPbMLZL4Ujpee1_RpLVDF0DJxlcNLMRJECRta_TqlPyM6YFx6qBLGwwy_6yQIflJEW1w2LMh-vP0G4Vdbwm3Ws0rgSkNf6LxTxHMlMP0vi7yp4xMRnCZ3kTxdc2d11eA70hJ-mCWgkolCi1RFz2hHEaQKyx9iorXvpyrkdKDt9w7yzMRTxWyyLmTkUzTIfz1TS7wNprDZeIP8YgaCgYKATASARISFQEjDvL90jeh_Q5C2Q_iP-LsbbSKUg0273",
+    "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImY0NTEzNDVmYWQwODEwMWJmYjM0NWNmNjQyYTJkYTkyNjdiOWViZWIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNjE4MTA0NzA4MDU0LTlyOXMxYzRhbGczNmVybGl1Y2hvOXQ1Mm4zMm42ZGdxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNjE4MTA0NzA4MDU0LTlyOXMxYzRhbGczNmVybGl1Y2hvOXQ1Mm4zMm42ZGdxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTAyNTAyNDE3MjkyMjQ3NTY1ODcyIiwiaGQiOiJieXVpLmVkdSIsImVtYWlsIjoiZ29uMTkwMDZAYnl1aS5lZHUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6IlRfMTYtdkgtX0RXaVRsbFlDaHlyYVEiLCJpYXQiOjE2Njc0OTI3ODMsImV4cCI6MTY2NzQ5NjM4MywianRpIjoiODM4ZTM4ODc4ZTEyMDIyZTA5MzVhMzJkNGVjZTk1YTQ1MjE2OTg4YiJ9.dGx3DYoSaqhI7DE_kW2ni3mc-kOPq3ziKzXjiUP5uwtN1MQG_J1DfJHVkyRO7lJdMEFicKIa3mGOVYUQ1Jn-d8xzghFJuLI6xNTQzweoOL9Mb6FR1jMY2gmw9VY8gmnM5ge8FCh3z5u1lgH2Z-7L_-rDqbbGX33Ul42WzTWNUVLw2Qzix2TUR5hMNETu37nccXZ-b9KREbmDhuZz1MRvcOPqR5luAX8YFMt-pEnzaYYfzCrYOG9g4VKUkFII_F2eomrWsxBFLk3NVtnLs18pfT-JdgyBshxjzKc5DEAf6rXXxfgsIO6p8NGjrg4EcIIbOR6b2OZjVIZTEXJsVsNu_g",
+    "token_expiry": "2022-11-03T17:26:21Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/home/gon19006/.config/gcloud/config_sentinel"
+  }
+}
+2022-11-03 16:27:05,782 INFO     ___FILE_ONLY___ 
+
+2022-11-03 16:27:05,782 DEBUG    root            SDK update checks are disabled.

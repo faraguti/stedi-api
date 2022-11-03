@@ -453,3 +453,20 @@ cd ~
 gunzip -S .zip stedi-private-main.zip
 unzip stedi-private-main.zip 
 ls -lh
+gcloud beta compute instances set-name instance-1     --new-name=CIT-326-ARM
+gcloud beta compute instances set-name instance-1     --new-name=cit-326-arm
+ls
+clear
+ls
+clear
+kubectl get pods | running
+kubectl get pods | grep running
+kubectl get pods | grep Running
+kubectl get pods | grep -i running
+clear
+kubectl get pods | grep -i running
+kubectl get pods | grep -i stedi
+kubectl get services
+kubectl get ingress
+clear
+kubectl get ingress
