@@ -497,3 +497,8 @@ kubectl describe pod stedi-felipe-7fd5bc986f-zmrx
 kubectl logs stedi-felipe-7fd5bc986f-zmrxq
 kubectl apply -f app.yaml
 kubectl get pods
+kubectl exec -it stedi-felipe-8685cd5797-c2zhv /bin/bash
+kubectl get pods | grep Running
+clear
+kubectl get pods | grep Running
+kubectl edit deployment stedi-felipe
