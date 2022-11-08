@@ -50,17 +50,17 @@ spec:
                 # Memory is the minimum amount of memory the pod needs to run
                 memory: "250Mi"
               # LivenessProbe is a configuration that checks the pod for health
-            # livenessProbe:
+            livenessProbe:
               # HttpGet instructs kubernetes to do an HTTP request to check health
-            #   httpGet:
+              httpGet:
                 # Path defines the url to use when doing the HTTP request
-            #    path: /
+               path: /
                 # Port defines the port to use when doing the HTTP request
-            #    port: 4567
+               port: 4567
             # InitialDelaySeconds tells Kubernetes to wait before doing a request
-           #   initialDelaySeconds: 3
+              initialDelaySeconds: 10
             # periodSeconds tells Kubernetes how often to check health
-           #   periodSeconds: 3
+              periodSeconds: 3
 ---
 
 
