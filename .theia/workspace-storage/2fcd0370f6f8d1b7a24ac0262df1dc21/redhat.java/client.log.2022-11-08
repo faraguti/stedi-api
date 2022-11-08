@@ -50,3 +50,55 @@
   level: 'info',
   timestamp: '2022-11-08 16:58:39.134'
 }
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /google/devshell/editor/theia/plugins/redhat.java-1.2.0/extension/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/gon19006/.theia/globalStorage/redhat.java/1.2.0/config_ss_linux -data /home/gon19006/.theia/workspace-storage/2fcd0370f6f8d1b7a24ac0262df1dc21/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2022-11-08 17:13:22.485'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2022-11-08 17:13:22.641'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/gon19006/.theia/workspace-storage/2fcd0370f6f8d1b7a24ac0262df1dc21/redhat.java -jar /google/devshell/editor/theia/plugins/redhat.java-1.2.0/extension/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/gon19006/.theia/globalStorage/redhat.java/1.2.0/config_linux -data /home/gon19006/.theia/workspace-storage/2fcd0370f6f8d1b7a24ac0262df1dc21/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2022-11-08 17:13:22.847'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2022-11-08 17:13:23.154'
+}
+{
+  message: '[Error - 5:13:27 PM] Nov 8, 2022, 5:13:27 PM Initialization failed \n' +
+    'Invalid project description.\n' +
+    'org.eclipse.core.internal.resources.ResourceException: Invalid project description.\n' +
+    '\tat org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)\n' +
+    '\tat org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)\n' +
+    '\tat org.eclipse.core.internal.resources.Project.create(Project.java:266)\n' +
+    '\tat org.eclipse.core.internal.resources.Project.create(Project.java:252)\n' +
+    '\tat org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.create(ProjectConfigurationManager.java:1014)\n' +
+    '\tat org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:165)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)\n' +
+    '\tat org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)\n' +
+    '\tat org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)\n' +
+    '\tat org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:137)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporter.importToWorkspace(MavenProjectImporter.java:226)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:122)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:108)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:238)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n' +
+    'Contains: OK\n' +
+    'Contains: /home/gon19006 overlaps the workspace location: /home/gon19006/.theia/workspace-storage/2fcd0370f6f8d1b7a24ac0262df1dc21/redhat.java/jdt_ws\n',
+  level: 'info',
+  timestamp: '2022-11-08 17:13:27.254'
+}
+{
+  message: '[Error - 5:13:27 PM] Connection to server got closed. Server will not be restarted.',
+  level: 'info',
+  timestamp: '2022-11-08 17:13:27.718'
+}

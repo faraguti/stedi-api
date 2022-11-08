@@ -484,3 +484,6 @@ cd ..
 mvn clean package
 java -jar ./target/StepTimerWebsocket-1.0-SNAPSHOT.jar 
 docker build .
+docker run -p 8080:4567 240e41b82550
+kubectl get services
+kubectl apply -f app.yaml
