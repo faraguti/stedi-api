@@ -487,3 +487,11 @@ docker build .
 docker run -p 8080:4567 240e41b82550
 kubectl get services
 kubectl apply -f app.yaml
+kubectl get pods
+kubectl decribe pod redis-stedi-dev-felipe-0
+kubectl describe pod redis-stedi-dev-felipe
+kubectl get pods
+kubectl describe pod stedi-felipe-7fd5bc986f-zmrxq
+kubectl get pods
+kubectl describe pod stedi-felipe-7fd5bc986f-zmrx
+kubectl logs stedi-felipe-7fd5bc986f-zmrxq
