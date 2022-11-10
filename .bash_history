@@ -1,11 +1,3 @@
-terraform init
-gcloud config list project
-ls
-terraform init
-terraform plan
-terraform init
-terraform plan
-terraform apply
 terraform plan
 terraform apply
 terraform plan
@@ -500,3 +492,9 @@ kubectl get ingress
 kubectl get services
 gcloud compute addresses create stedi-public-felipe --global --ip-version IPV4
 kubectl apply -f app.yaml
+kubectl get ingress
+kubectl get services
+kubectl apply -f app.yaml
+kubectl get services
+kubectl delete service stedi-felipe-loadbalancer
+kubectl get ingress
