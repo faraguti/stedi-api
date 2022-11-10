@@ -1,10 +1,3 @@
-tls
-ls
-clear
-touch main.tf
-ls
-cat main.tf
-gcloud config list project
 terraform init
 gcloud config list project
 ls
@@ -502,3 +495,8 @@ kubectl get pods | grep Running
 clear
 kubectl get pods | grep Running
 kubectl edit deployment stedi-felipe
+kubectl get pods
+kubectl get ingress
+kubectl get services
+gcloud compute addresses create stedi-public-felipe --global --ip-version IPV4
+kubectl apply -f app.yaml

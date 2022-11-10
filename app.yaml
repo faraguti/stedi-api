@@ -63,7 +63,15 @@ spec:
               periodSeconds: 3
 ---
 
+apiVersion: networking.gke.io/v1
+kind: ManagedCertificate
+metadata:
+  name: stedi-certificate-felipe
+spec:
+  domains:
+    - faraguti.cit262.com
 
+---
 # apiVersion tells Kubernetes which version of yaml to use
 apiVersion: v1
 # Kind tells Kubernetes what kind of object to create
@@ -71,19 +79,36 @@ kind: Service
 # Metadata contains attributes about the object
 metadata:
   # Name is the name of the object we are creating
-  name: stedi-felipe-loadbalancer
+  name: stedi-nodeport-felipe
 # Spec is the specification for the object (or the loadbalancer)
 spec:
   # Selector tells the network layer how to find the right pod
   selector:
     # App tells the selector which app to send traffic to
-    app: stedi-felipe
+    app: stedi
   # Type tells Kubernetes the type of service we want
-  # a LoadBalancer distributes network packets to one or more pods
-  type: LoadBalancer
+  # a NodePort distributes network packets to one or more pods
+  type: NodePort
   # Ports are a list of ports the Load Balancer listens on
   ports:
     # Port we want to listen on the network
     - port: 80
     # Targetport is the port the pod listens on inside Kubernetes
       targetPort: 4567
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: stedi-ingress-felipe
+  annotations:
+    kubernetes.io/ingress.global-static-ip-name: stedi-public-felipe
+    networking.gke.io/managed-certificates: stedi-certificate-felipe
+    kubernetes.io/ingress.allow-http: "false"
+    kubernetes.io/ingress.class: "gce"
+spec:
+  defaultBackend:
+    service:
+      name: stedi-nodeport-felipe
+      port:
+        number: 80
