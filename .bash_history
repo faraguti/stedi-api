@@ -509,3 +509,9 @@ clear
 kubectl logs -f stedi-felipe-fddf87cc6-q2xs4
 clear
 kubectl get managedcertificates
+kubectl get pods
+kubectl get pods | grep Running
+clear
+kubectl get pods | grep Running
+clear
+kubectl get pods

@@ -85,7 +85,7 @@ spec:
   # Selector tells the network layer how to find the right pod
   selector:
     # App tells the selector which app to send traffic to
-    app: stedi
+    app: stedi-felipe
   # Type tells Kubernetes the type of service we want
   # a NodePort distributes network packets to one or more pods
   type: NodePort

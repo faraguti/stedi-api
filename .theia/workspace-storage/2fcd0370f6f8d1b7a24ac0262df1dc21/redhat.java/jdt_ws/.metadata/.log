@@ -1564,3 +1564,9 @@ Contains: /home/gon19006 overlaps the workspace location: /home/gon19006/.theia/
 
 !ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-15 17:46:58.803
 !MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-15 17:53:59.304
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-15 17:53:59.307
+!MESSAGE >> java/findLinks
