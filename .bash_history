@@ -1,10 +1,3 @@
-terraform plan
-terraform apply
-terraform plan
-terraform init
-terraform plan
-terraform apply
-terraform plan
 clear
 terraform plan
 clear
@@ -498,3 +491,21 @@ kubectl apply -f app.yaml
 kubectl get services
 kubectl delete service stedi-felipe-loadbalancer
 kubectl get ingress
+gcloud compute addresses list
+kubectl get ingress
+kubectl get managedcertificates
+kubectl describe managedcertificates stedi-certificate-felipe
+kubectl get managedcertificates
+kubectl describe ingress stedi-ingress-felipe
+kubectl get managedcertificates
+clear
+kubectl get managedcertificates
+clear
+kubectl get managedcertificates
+kubectl get pods
+kubectl logs -f stedi-felipe-fddf87cc6-b5kq4
+kubectl logs -f sted
+clear
+kubectl logs -f stedi-felipe-fddf87cc6-q2xs4
+clear
+kubectl get managedcertificates

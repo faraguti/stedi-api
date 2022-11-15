@@ -1,25 +1,25 @@
 {
   message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /google/devshell/editor/theia/plugins/redhat.java-1.2.0/extension/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/gon19006/.theia/globalStorage/redhat.java/1.2.0/config_ss_linux -data /home/gon19006/.theia/workspace-storage/2fcd0370f6f8d1b7a24ac0262df1dc21/redhat.java/ss_ws',
   level: 'info',
-  timestamp: '2022-11-08 16:58:32.652'
+  timestamp: '2022-11-15 16:51:41.053'
 }
 {
   message: 'WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector\n',
   level: 'info',
-  timestamp: '2022-11-08 16:58:33.008'
+  timestamp: '2022-11-15 16:51:41.450'
 }
 {
   message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/gon19006/.theia/workspace-storage/2fcd0370f6f8d1b7a24ac0262df1dc21/redhat.java -jar /google/devshell/editor/theia/plugins/redhat.java-1.2.0/extension/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/gon19006/.theia/globalStorage/redhat.java/1.2.0/config_linux -data /home/gon19006/.theia/workspace-storage/2fcd0370f6f8d1b7a24ac0262df1dc21/redhat.java/jdt_ws',
   level: 'info',
-  timestamp: '2022-11-08 16:58:33.059'
+  timestamp: '2022-11-15 16:51:41.639'
 }
 {
   message: 'WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.foreign\n',
   level: 'info',
-  timestamp: '2022-11-08 16:58:33.180'
+  timestamp: '2022-11-15 16:51:41.732'
 }
 {
-  message: '[Error - 4:58:38 PM] Nov 8, 2022, 4:58:38 PM Initialization failed \n' +
+  message: '[Error - 4:51:46 PM] Nov 15, 2022, 4:51:46 PM Initialization failed \n' +
     'Invalid project description.\n' +
     'org.eclipse.core.internal.resources.ResourceException: Invalid project description.\n' +
     '\tat org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)\n' +
@@ -43,35 +43,35 @@
     'Contains: OK\n' +
     'Contains: /home/gon19006 overlaps the workspace location: /home/gon19006/.theia/workspace-storage/2fcd0370f6f8d1b7a24ac0262df1dc21/redhat.java/jdt_ws\n',
   level: 'info',
-  timestamp: '2022-11-08 16:58:38.619'
+  timestamp: '2022-11-15 16:51:46.890'
 }
 {
-  message: '[Error - 4:58:39 PM] Connection to server got closed. Server will not be restarted.',
+  message: '[Error - 4:51:47 PM] Connection to server got closed. Server will not be restarted.',
   level: 'info',
-  timestamp: '2022-11-08 16:58:39.134'
+  timestamp: '2022-11-15 16:51:47.366'
 }
 {
   message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /google/devshell/editor/theia/plugins/redhat.java-1.2.0/extension/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/gon19006/.theia/globalStorage/redhat.java/1.2.0/config_ss_linux -data /home/gon19006/.theia/workspace-storage/2fcd0370f6f8d1b7a24ac0262df1dc21/redhat.java/ss_ws',
   level: 'info',
-  timestamp: '2022-11-08 17:13:22.485'
+  timestamp: '2022-11-15 17:26:53.553'
 }
 {
   message: 'WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector\n',
   level: 'info',
-  timestamp: '2022-11-08 17:13:22.641'
+  timestamp: '2022-11-15 17:26:53.640'
 }
 {
   message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/gon19006/.theia/workspace-storage/2fcd0370f6f8d1b7a24ac0262df1dc21/redhat.java -jar /google/devshell/editor/theia/plugins/redhat.java-1.2.0/extension/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/gon19006/.theia/globalStorage/redhat.java/1.2.0/config_linux -data /home/gon19006/.theia/workspace-storage/2fcd0370f6f8d1b7a24ac0262df1dc21/redhat.java/jdt_ws',
   level: 'info',
-  timestamp: '2022-11-08 17:13:22.847'
+  timestamp: '2022-11-15 17:26:53.996'
 }
 {
   message: 'WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector\n',
   level: 'info',
-  timestamp: '2022-11-08 17:13:23.154'
+  timestamp: '2022-11-15 17:26:54.174'
 }
 {
-  message: '[Error - 5:13:27 PM] Nov 8, 2022, 5:13:27 PM Initialization failed \n' +
+  message: '[Error - 5:26:57 PM] Nov 15, 2022, 5:26:57 PM Initialization failed \n' +
     'Invalid project description.\n' +
     'org.eclipse.core.internal.resources.ResourceException: Invalid project description.\n' +
     '\tat org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)\n' +
@@ -95,10 +95,10 @@
     'Contains: OK\n' +
     'Contains: /home/gon19006 overlaps the workspace location: /home/gon19006/.theia/workspace-storage/2fcd0370f6f8d1b7a24ac0262df1dc21/redhat.java/jdt_ws\n',
   level: 'info',
-  timestamp: '2022-11-08 17:13:27.254'
+  timestamp: '2022-11-15 17:26:57.978'
 }
 {
-  message: '[Error - 5:13:27 PM] Connection to server got closed. Server will not be restarted.',
+  message: '[Error - 5:26:58 PM] Connection to server got closed. Server will not be restarted.',
   level: 'info',
-  timestamp: '2022-11-08 17:13:27.718'
+  timestamp: '2022-11-15 17:26:58.453'
 }
