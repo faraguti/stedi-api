@@ -1,23 +1,3 @@
-clear
-terraform plan
-clear
-terraform plan
-clear
-terraform plan
-clear
-terraform plan
-clear
-terraform apply
-terraform destroy
-terraform plan
-clear
-terraform plan
-clear
-terraform plan
-clear
-terraform plan
-ckear
-clear
 terraform apply
 terraform plan
 terraform apply
@@ -515,3 +495,6 @@ clear
 kubectl get pods | grep Running
 clear
 kubectl get pods
+kubectl get managedcertificates
+kubectl get pods
+kubectl get managedcertificates

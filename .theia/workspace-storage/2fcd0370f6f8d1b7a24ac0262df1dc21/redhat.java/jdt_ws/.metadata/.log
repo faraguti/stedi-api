@@ -1570,3 +1570,171 @@ Contains: /home/gon19006 overlaps the workspace location: /home/gon19006/.theia/
 
 !ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-15 17:53:59.307
 !MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-15 18:17:18.261
+!MESSAGE >> shutdown
+!SESSION 2022-11-17 16:58:05.036 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.4
+java.vendor=Debian
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/gon19006/.theia/workspace-storage/2fcd0370f6f8d1b7a24ac0262df1dc21/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:10.060
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:10.915
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:11.049
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:11.052
+!MESSAGE Initializing Java Language Server 1.7.0.202112160206
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:11.135
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-debug-0.31.0/extension/server/com.microsoft.java.debug.plugin-0.30.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:11.151
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-dependency-0.18.6/extension/server/com.microsoft.jdtls.ext.core-0.18.6.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:11.171
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/com.microsoft.java.test.plugin-0.29.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:11.190
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.eclipse.jdt.junit4.runtime_1.1.1200.v20200214-0716.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:11.236
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.eclipse.jdt.junit5.runtime_1.0.900.v20200513-0617.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:11.245
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.jupiter.api_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:11.261
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.jupiter.engine_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:11.268
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.jupiter.migrationsupport_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:11.288
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.jupiter.params_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:11.305
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.vintage.engine_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:11.313
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.opentest4j_1.2.0.v20190826-0900.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:11.325
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.platform.commons_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:11.333
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.platform.engine_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:11.344
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.platform.launcher_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:11.350
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.platform.runner_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:11.354
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.platform.suite.api_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:11.357
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.apiguardian_1.1.0.v20190826-0900.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:11.364
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscode-maven-0.30.1/extension/jdtls.ext/com.microsoft.java.maven.plugin/target/com.microsoft.java.maven.plugin-0.27.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.145
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.eclipse.jdt.junit4.runtime_1.1.1200.v20200214-0716.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.145
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.jupiter.api_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.146
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.jupiter.migrationsupport_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.147
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.platform.engine_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.147
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.jupiter.engine_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.148
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.platform.launcher_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.148
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.platform.runner_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.149
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.platform.suite.api_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.150
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.platform.commons_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.151
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.apiguardian_1.1.0.v20190826-0900.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.151
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.jupiter.params_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.152
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.opentest4j_1.2.0.v20190826-0900.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.152
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.vintage.engine_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.153
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.eclipse.jdt.junit5.runtime_1.0.900.v20200513-0617.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.161
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.161
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.162
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.162
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.162
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.163
+!MESSAGE Non-Static Commands: [vscode.java.test.search.codelens, vscode.java.test.search.items.all, vscode.java.test.search.location, vscode.java.test.search.items, vscode.java.test.get.testpath, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.163
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.164
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.164
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.164
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.207
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.207
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.210
+!MESSAGE ProjectRegistryRefreshJob finished 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.210
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:12.294
+!MESSAGE Started org.eclipse.buildship.core 84ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:14.058
+!MESSAGE LoadingGradleVersionJob finished 1762ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-11-17 16:58:14.129
+!MESSAGE >> initialized
