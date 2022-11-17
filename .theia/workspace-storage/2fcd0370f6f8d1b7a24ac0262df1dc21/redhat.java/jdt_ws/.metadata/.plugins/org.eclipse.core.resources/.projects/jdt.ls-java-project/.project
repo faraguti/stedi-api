@@ -16,9 +16,14 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>src/com/getsimplex/steptimer/utils/JedisClient.java</name>
+			<type>1</type>
+			<location>//home/gon19006/src/main/java/com/getsimplex/steptimer/utils/JedisClient.java</location>
+		</link>
+		<link>
 			<name>src/com/getsimplex/steptimer/utils/SendText.java</name>
 			<type>1</type>
-			<location>//home/gon19006/stedi-private-main/src/main/java/com/getsimplex/steptimer/utils/SendText.java</location>
+			<location>/home/gon19006/stedi-private-main/src/main/java/com/getsimplex/steptimer/utils/SendText.java</location>
 		</link>
 	</linkedResources>
 </projectDescription>

@@ -498,3 +498,5 @@ kubectl get pods
 kubectl get managedcertificates
 kubectl get pods
 kubectl get managedcertificates
+kubectl get services
+kubectl get secrets
