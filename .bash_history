@@ -500,3 +500,5 @@ kubectl get pods
 kubectl get managedcertificates
 kubectl get services
 kubectl get secrets
+kubectl apply -f app.yaml
+kubectl get pods
