@@ -1,9 +1,3 @@
-terraform apply
-terraform plan
-terraform apply
-terraform plan
-terraform apply
-clear
 terraform plan
 terraform apply
 clear
@@ -500,5 +494,7 @@ kubectl get pods
 kubectl get managedcertificates
 kubectl get services
 kubectl get secrets
+kubectl apply -f app.yaml
+kubectl get pods
 kubectl apply -f app.yaml
 kubectl get pods
