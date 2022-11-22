@@ -1,13 +1,3 @@
-terraform plan
-terraform apply
-clear
-terraform plan
-clear
-terraform plan
-clear
-terraform plan
-terraform plan --help
-clear
 terraform plan --help
 clear
 terraform plan
@@ -498,3 +488,13 @@ kubectl apply -f app.yaml
 kubectl get pods
 kubectl apply -f app.yaml
 kubectl get pods
+kubectl get secrets
+kubectl get pods
+kubectl delete pod stedi-89688698d-9b4ws
+kubectl get pods
+docker pull sundowndev/phoneinfoga:latest
+docker run -it -p 8080:8080 sundowndev/phoneinfoga serve -p 8080
+clear
+docker images
+docker rmi sundowndev/phoneinfoga
+docker rmi -f sundowndev/phoneinfoga
