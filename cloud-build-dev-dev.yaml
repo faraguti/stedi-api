@@ -1,0 +1,83 @@
+#© 2022 felipe Fantauzzi
+
+steps:
+
+  # This step builds the container image.
+  - name: 'gcr.io/cloud-builders/docker'
+    id: Build
+    args:
+      - 'build'
+      - '-t'
+      - 'gcr.io/$PROJECT_ID/stedi-felipe:$SHORT_SHA'
+      - '.'
+
+  # This step pushes the image to Container Registry
+  # The PROJECT_ID and SHORT_SHA variables are automatically
+  # replaced by Cloud Build.
+  - name: 'gcr.io/cloud-builders/docker'
+    id: Push
+    args:
+      - 'push'
+      - 'gcr.io/$PROJECT_ID/stedi-felipe:$SHORT_SHA'
+
+  # This step builds the container image.
+  - name: 'gcr.io/cloud-builders/docker'
+    id: Build-Latest
+    args:
+      - 'build'
+      - '-t'
+      - 'gcr.io/$PROJECT_ID/stedi-felipe:latest'
+      - '.'
+
+  # This step pushes the image to Container Registry
+  # The PROJECT_ID and SHORT_SHA variables are automatically
+  # replaced by Cloud Build.
+  - name: 'gcr.io/cloud-builders/docker'
+    id: Push-Latest
+    args:
+      - 'push'
+      - 'gcr.io/$PROJECT_ID/stedi-felipe:latest'
+
+  # This step stops the stedi pod
+  - name: 'gcr.io/cloud-builders/kubectl'
+    id: Stop Pod
+    args:
+      - 'scale'
+      - 'deploy'
+      - 'stedi-felipe'
+      - '--replicas=0'
+    env:
+      - 'CLOUDSDK_COMPUTE_ZONE=us-central1-c'
+      - 'CLOUDSDK_CONTAINER_CLUSTER=cluster-1'
+
+      # This step deploys the application in Kubernetes
+  - name: 'gcr.io/cloud-builders/gke-deploy'
+    args:
+      - run
+      - --filename=app-dev.yaml
+      - --image=gcr.io/$PROJECT_ID/stedi-felipe:$SHORT_SHA
+      - --location=us-central1-c
+      - --cluster=cluster-1
+
+  # This step scales up the stedi pod
+  - name: 'gcr.io/cloud-builders/kubectl'
+    id: Start Pod
+    args:
+      - 'scale'
+      - 'deploy'
+      - 'stedi-felipe'
+      - '--replicas=1'
+    env:
+      - 'CLOUDSDK_COMPUTE_ZONE=us-central1-c'
+      - 'CLOUDSDK_CONTAINER_CLUSTER=cluster-1'
+  
+    # This step deploys the stage application in Kubernetes
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args:
+    - builds
+    - submit
+    - --config
+    - cloud-build-dev-test.yaml
+    #   - --substitutions
+    #   - _SHORT_SHA=$SHORT_SHA
+    #   - .

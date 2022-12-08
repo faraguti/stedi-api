@@ -498,3 +498,5 @@ kubectl get pods
 clear
 kubectl get pods
 kubectl get services
+kubectl get pods
+kubectl get services
