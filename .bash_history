@@ -1,115 +1,3 @@
-terraform plan --help
-clear
-terraform plan
-clear
-terraform plan
-terraform apply
-terraform plan
-terraform apply
-clear
-terraform init
-terraform plan
-terraform apply
-clear
-terraform destroy
-git clone https://github.com/faraguti/cit270-rest-api
-git --global
-git --global user.email "faraguti@gmail.com"
-git config user.email "faraguti@gmail.com"
-cd cit270-rest-api/
-git config user.email "faraguti@gmail.com"
-git config --help
-git --global config user.email "faraguti@gmail.com"
-clear
-cd ci
-cd cit270-rest-api/
-docker build . -t authentication-service
-npm install
-docker run -p 4043:443 authentication-service
-git pull
-docker run -p 4043:443 authentication-service
-git pull
-docker run -p 4043:443 authentication-service
-npm install
-npm init
-docker run -p 4043:443 authentication-service
-git pull
-git config user.password "#AguaLeve15"
-git config user.name faraguti@gmail.com
-git config user.password #AguaLeve15
-ls
-cd cit270-rest-api/
-ls
-cd ..
-cd..
-ls
-cd gon19006/
-ls
-cd cit270-rest-api/
-docker build . -t authentication-service
-docker run -p 4043:443 authentication-service
-git pull
-docker images
-git clone https://github.com/faraguti/cit270-rest-api
-cd ..
-ls
-git clone https://github.com/faraguti/cit270-rest-api
-clear
-docker run -p 4043:443 authentication-service
-clear
-cd ..
-docker run -p 4043:443 authentication-service
-docker images
-clear
-cd cit270-rest-api/
-clear
-docker run -p 4043:443 authentication-service
-clear
-docker build . -t authentication-service
-docker run -p 4043:443 authentication-service
-touch server.key
-cat server.key
-nano server.key
-docker run -p 4043:443 authentication-service
-npm install
-docker run -p 4043:443 authentication-service
-clear
-docker run -p 4043:443 authentication-service
-cd cit270-rest-api/
-clear
-npm install
-npm start
-cd ..
-ls
-cd cit270-rest-api/
-ls
-docker build . -t authentication-service
-docker run -p 4043:443 authentication-service
-kubectl config current-context
-gcloud container clusters get-credentials cluster-cit326-goncalves --zone us-central1-c --project cit-326-vm
-kubectl config current-context
-cat <<EOF >./kustomization.yaml
-secretGenerator:
-- name: mysql-pass
-  literals:
-  - password=cit326BYUIpw
-EOF
-
-ls
-curl -LO https://k8s.io/examples/application/wordpress/mysql-deployment.yaml
-curl -LO https://k8s.io/examples/application/wordpress/wordpress-deployment.yaml
-cat <<EOF >>./kustomization.yaml
-resources:
-  - mysql-deployment.yaml
-  - wordpress-deployment.yaml
-EOF
-
-cat kustomization.yaml 
-kubectl apply -k ./
-kubectl pods
-kubectl get pods
-kubectl get services
-clear
 kubectl run -it --rm --image=mysql:5.6 --restart=Never mysql-client -- mysql -h wordpress-mysql -pcit326BYUIpw
 clear
 kubectl run -it --rm --image=mysql:5.6 --restart=Never mysql-client -- mysql -h wordpress-mysql -pcit326BYUIpw
@@ -498,3 +386,119 @@ clear
 docker images
 docker rmi sundowndev/phoneinfoga
 docker rmi -f sundowndev/phoneinfoga
+pip3 install cyberdrop-dl
+cyberdrop-dl
+terraform init
+terraform plan
+clear
+terraform plan
+clear
+terraform plan
+clear
+terraform plan
+clear
+terraform plan
+clear
+terraform plan
+clear
+terraform plan
+terraform destroy
+terraform plan
+clear
+terraform unplan
+terraform -help
+terraform refresh
+clear
+terraform destroy
+clear
+terraform stop
+terraform plan
+terraform plan -destroy
+terraform plan
+terraform destroy
+terraform init
+terraform plan
+terraform destroy
+gcloud auth list project
+gcloud projects list
+terraform init
+terraform plan
+terraform apply
+terraform destroy
+terraform init
+terraform plan
+clear
+terraform plan
+terraform init -upgrade
+terraform plan
+terraform init
+terraform plan
+terraform init -upgrade
+terraform plan
+terraform init -upgrade
+terraform plan
+clear
+terraform plan
+clear
+terraform plan
+terraform init -upgrade
+terraform plan
+terraform init
+terraform plan
+gcloud container clusters get-credentials cluster-cit326-felipe --zone us-central1-c --project cit-326-vm
+clear
+gcloud container clusters get-credentials cluster-cit326-felipe --zone us-central1-c --project cit-326-vm
+kubectl config current-context
+cat <<EOF >./kustomization.yaml
+secretGenerator:
+- name: mysql-pass
+  literals:
+  - password=YOUR_PASSWORD
+EOF
+
+ls
+cat kustomization.yaml 
+vi kustomization.yaml 
+curl -LO https://k8s.io/examples/application/wordpress/mysql-deployment.yaml
+curl -LO https://k8s.io/examples/application/wordpress/wordpress-deployment.yaml
+cat <<EOF >>./kustomization.yaml
+resources:
+  - mysql-deployment.yaml
+  - wordpress-deployment.yaml
+EOF
+
+vi kustomization.yaml 
+kubectl apply -k ./
+clear
+kubectl get pods
+kubectl get secrets
+kubectl get pvc
+kubectl get pods
+kubectl get services
+terraform state list
+terraform show
+terraform init -upgrade
+kubectl get services
+kubectl get pods
+kubectl 
+kubectl get pods
+clear
+kubectl get pods
+gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project group-project-cloud-account
+kubectl get pods
+kubectl get services
+clear
+kubectl get services
+kubectl get pods
+kubectl get services
+kubectl get pods
+kubectl apply -f app.yaml
+kubectl get pods
+kubectl get services
+kubectl get pods
+kubectl get services
+clear
+kubectl get services
+kubectl get pods
+kubectl apply -f app.yaml
+kubectl get services
