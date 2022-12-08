@@ -1,30 +1,3 @@
-}
-resource "google_sql_user" "mysql-dev-user" {
-}
-#Build 2nd user, instance and db
-resource "google_sql_database" "mysql-jefferson2" {
-}
-resource "google_sql_database_instance" "msql-intest-instance" {
-}
-resource "google_sql_user" "mysql-intest-user" {
-}
-#Build 3rd user, instance and db
-resource "google_sql_database" "mysql-jefferson3" {
-}
-resource "google_sql_database_instance" "msql-qa-instance" {
-}
-resource "google_sql_user" "mysql-qa-user" {
-}
-#Build 4th user, instance and db
-resource "google_sql_database" "postgress-jefferson4" {
-}
-resource "google_sql_database_instance" "postgress-dev-instance" {
-}
-resource "google_sql_user" "postgress-dev-user" {
-}
-#Build 5th user, instance and db
-resource "google_sql_database" "postgress-jefferson5" {
-}
 resource "google_sql_database_instance" "postgress-intest-instance" {
 }
 resource "google_sql_user" "postgress-intest-user" {
@@ -501,3 +474,27 @@ kubectl get pods
 clear
 kubectl get pods
 kubectl describe pod stedi-test-felipe-5b965d5ff-b5r96
+clear
+kubectl get pods
+clear
+kubectl get pods
+kubectl describe pod stedi-andruw-dev-77788c8477-m7xqf
+kubectl get pods
+kubectl apply -f app.yaml
+kubectl apply -f app-dev.yaml
+kubectl apply -f app-test.yaml
+kubectl apply -f app-prod.yaml
+kubectl get pods
+clear
+kubectl get pods
+kubectl get services
+kubectl get pods
+kubectl delete stedi-prod-felipe-995886684-tg7n9
+kubectl get pods
+kubectl delete pod stedi-prod-felipe-995886684-tg7n9
+kubectl get pods
+kubectl delete pod stedi-prod-felipe-995886684-g94r9
+kubectl get pods
+clear
+kubectl get pods
+kubectl get services
