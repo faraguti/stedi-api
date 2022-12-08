@@ -30,7 +30,7 @@ spec:
           # The name of the container is specified below
           - name: stedi-felipe-test
             # The image is a prebuilt file containing the operating system
-            image: gcr.io/group-project-cloud-account/stedi-felipe-test
+            image: gcr.io/group-project-cloud-account/stedi-felipe
             env:
               - name: REDIS_PASSWORD
                 valueFrom:

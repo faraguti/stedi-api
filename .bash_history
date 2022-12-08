@@ -498,3 +498,6 @@ kubectl apply -f app-dev.yaml
 kubectl apply -f app-test.yaml
 kubectl apply -f app-prod.yaml
 kubectl get pods
+clear
+kubectl get pods
+kubectl describe pod stedi-test-felipe-5b965d5ff-b5r96
