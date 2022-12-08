@@ -1,7 +1,3 @@
-kubectl run -it --rm --image=mysql:5.6 --restart=Never mysql-client -- mysql -h wordpress-mysql -pcit326BYUIpw
-clear
-kubectl run -it --rm --image=mysql:5.6 --restart=Never mysql-client -- mysql -h wordpress-mysql -pcit326BYUIpw
-clear
 kubectl get pods
 kubectl delete pod wordpress-mysql-5bc85cfc96-dpr9t
 clear
@@ -502,3 +498,13 @@ kubectl get services
 kubectl get pods
 kubectl apply -f app.yaml
 kubectl get services
+kubectl get pods
+kubectl describepod gcloud container clusters get-credentials cluster-1 --zone us-central1
+kubectl describe pod stedi-felipe-64ccd58474-vwbdp
+kubectl get pods
+kubectl describe pod stedi-felipe-64ccd58474-vwbdp
+clear
+kubectl create secret generic redis-secrets-dev-felipe --from-literal=REDIS_PASS=password
+kubectl get pods
+kubectl apply -f app.yaml
+kubectl get pods
