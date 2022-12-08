@@ -6,7 +6,7 @@ kind: Deployment
 # Metadata is information related to the object we created in Kubernetes
 metadata:
   # The name here is the name of our deployment
-  name: stedi-test-felipe
+  name: stedi-felipe-test
   
 spec:
     #replicas refers to the number of pods we deploy
@@ -16,21 +16,21 @@ spec:
       # MatchLabels are a label for my selector
       matchLabels:
         # App is a specific kind of label for my pod
-        app: stedi-test-felipe
+        app: stedi-felipe-test
     # The template describes all the features of my pod
     template:
       # The metadata provides labels for my template
       metadata:
         labels:
-          app: stedi-test-felipe
+          app: stedi-felipe-test
       # The spec refers to the specification of my containers in my pod
       spec:
         # Containers can have one or more Docker containers in the pod
         containers:
           # The name of the container is specified below
-          - name: stedi-test-felipe
+          - name: stedi-felipe-test
             # The image is a prebuilt file containing the operating system
-            image: gcr.io/group-project-cloud-account/stedi-test-felipe
+            image: gcr.io/group-project-cloud-account/stedi-felipe-test
             env:
               - name: REDIS_PASSWORD
                 valueFrom:
@@ -97,7 +97,7 @@ spec:
   # Selector tells the network layer how to find the right pod
   selector:
     # App tells the selector which app to send traffic to
-    app: stedi-test-felipe
+    app: stedi-felipe-test
   # Type tells Kubernetes the type of service we want
   # a NodePort distributes network packets to one or more pods
   type: NodePort

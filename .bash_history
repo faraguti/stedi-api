@@ -1,20 +1,3 @@
-kubectl get pods
-kubectl delete pod wordpress-mysql-5bc85cfc96-dpr9t
-clear
-kubectl get pods
-ls
-cat main.tf
-clear
-terraform init
-terraform apply
-gcloud auth application-default login --remote-bootstrap="https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=764086051850-6qr4p6gpi6hn506pt8ejuq83di341hur.apps.googleusercontent.com&scope=openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fsqlservice.login+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faccounts.reauth&state=HoQrjtWzwIjZwp8oj9HSPCucfzsQhS&access_type=offline&code_challenge=34Fz5S-_b3h5y4-FaGqVOeJFFJcEcTjosdWF8xIlYQ0&code_challenge_method=S256&token_usage=remote"
-gcloud projects list
-gcloud config set project terraform {
-}
-#Build first user, istance and disabledSuppor
-resource "google_sql_database" "mysql-jefferson1" {
-}
-resource "google_sql_database_instance" "msql-dev-instance" {
 }
 resource "google_sql_user" "mysql-dev-user" {
 }
@@ -507,4 +490,11 @@ clear
 kubectl create secret generic redis-secrets-dev-felipe --from-literal=REDIS_PASS=password
 kubectl get pods
 kubectl apply -f app.yaml
+kubectl get pods
+clear
+kubectl get pods
+kubectl apply -f app.yaml
+kubectl apply -f app-dev.yaml
+kubectl apply -f app-test.yaml
+kubectl apply -f app-prod.yaml
 kubectl get pods
