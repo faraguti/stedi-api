@@ -1,14 +1,13 @@
-#© 2022 felipe Fantauzzi
+#© 2022 felipe goncalves
 
 steps:
-
   # This step stops the stedi pod
   - name: 'gcr.io/cloud-builders/kubectl'
     id: Stop Pod
     args:
       - 'scale'
       - 'deploy'
-      - 'stedi-felipe'
+      - 'stedi-felipe-production'
       - '--replicas=0'
     env:
       - 'CLOUDSDK_COMPUTE_ZONE=us-central1-c'
@@ -18,9 +17,10 @@ steps:
   - name: 'gcr.io/cloud-builders/gke-deploy'
     args:
       - run
-      - --filename=app-prod.yaml
+      - --filename=production.yaml
       - --image=gcr.io/$PROJECT_ID/stedi-felipe:latest
       - --location=us-central1-c
+      - --output=/tmp/outputprod
       - --cluster=cluster-1
 
   # This step scales up the stedi pod
@@ -29,10 +29,10 @@ steps:
     args:
       - 'scale'
       - 'deploy'
-      - 'stedi-felipe'
+      - 'stedi-felipe-production'
       - '--replicas=1'
     env:
       - 'CLOUDSDK_COMPUTE_ZONE=us-central1-c'
       - 'CLOUDSDK_CONTAINER_CLUSTER=cluster-1'
 
-  
+

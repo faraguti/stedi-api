@@ -1,36 +1,3 @@
-resource "google_sql_database" "mysql-jefferson1" {
-}
-resource "google_sql_database_instance" "msql-dev-instance" {
-}
-resource "google_sql_user" "mysql-dev-user" {
-}
-#Build 2nd user, instance and db
-resource "google_sql_database" "mysql-jefferson2" {
-}
-resource "google_sql_database_instance" "msql-intest-instance" {
-}
-resource "google_sql_user" "mysql-intest-user" {
-}
-#Build 3rd user, instance and db
-resource "google_sql_database" "mysql-jefferson3" {
-}
-resource "google_sql_database_instance" "msql-qa-instance" {
-}
-resource "google_sql_user" "mysql-qa-user" {
-}
-#Build 4th user, instance and db
-resource "google_sql_database" "postgress-jefferson4" {
-}
-resource "google_sql_database_instance" "postgress-dev-instance" {
-}
-resource "google_sql_user" "postgress-dev-user" {
-}
-#Build 5th user, instance and db
-resource "google_sql_database" "postgress-jefferson5" {
-}
-resource "google_sql_database_instance" "postgress-intest-instance" {
-}
-resource "google_sql_user" "postgress-intest-user" {
 }
 #Bulid 6th user, instance and db
 resource "google_sql_database" "postgress-jefferson4" {
@@ -524,3 +491,11 @@ kubectl delete deployment stedi-dev-felipe
 kubectl get pods
 clear
 kubectl get pods
+clear
+kubectl get pods
+kubectl get services
+clear
+kubectl get services
+kubectl get pods
+clear
+kubectl get services
