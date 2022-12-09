@@ -1,7 +1,7 @@
-2022-10-20 18:16:22,440 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
-2022-10-20 18:16:22,442 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'config_helper']
-2022-10-20 18:16:22,445 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
-2022-10-20 18:16:22,454 DEBUG    root            (gcloud.config.config-helper) You do not currently have an active account selected.
+2022-12-08 19:55:40,600 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2022-12-08 19:55:40,604 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'config_helper']
+2022-12-08 19:55:40,609 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
+2022-12-08 19:55:40,629 DEBUG    root            (gcloud.config.config-helper) You do not currently have an active account selected.
 Please run:
 
   $ gcloud auth login
@@ -20,9 +20,9 @@ Traceback (most recent call last):
     resources = command_instance.Run(args)
   File "/usr/lib/google-cloud-sdk/lib/surface/config/config_helper.py", line 99, in Run
     cred = store.Load(use_google_auth=True)
-  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/core/credentials/store.py", line 564, in Load
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/core/credentials/store.py", line 565, in Load
     cred = _Load(
-  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/core/credentials/store.py", line 719, in _Load
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/core/credentials/store.py", line 729, in _Load
     raise creds_exceptions.NoActiveAccountException(
 googlecloudsdk.core.credentials.exceptions.NoActiveAccountException: You do not currently have an active account selected.
 Please run:
@@ -36,7 +36,7 @@ If you have already logged in with a different account:
     $ gcloud config set account ACCOUNT
 
 to select an already authenticated account to use.
-2022-10-20 18:16:22,500 ERROR    root            (gcloud.config.config-helper) You do not currently have an active account selected.
+2022-12-08 19:55:40,634 ERROR    root            (gcloud.config.config-helper) You do not currently have an active account selected.
 Please run:
 
   $ gcloud auth login

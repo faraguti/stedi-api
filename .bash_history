@@ -1,17 +1,3 @@
-resource "google_sql_database_instance" "postgress-intest-instance" {
-}
-resource "google_sql_user" "postgress-intest-user" {
-}
-#Bulid 6th user, instance and db
-resource "google_sql_database" "postgress-jefferson4" {
-}
-resource "google_sql_database_instance" "postgress-qa-instance" {
-}
-resource "google_sql_user" "postgress-qa-user" {
-}
-terraform {
-}
-#Build first user, istance and disabledSuppor
 resource "google_sql_database" "mysql-jefferson1" {
 }
 resource "google_sql_database_instance" "msql-dev-instance" {
@@ -500,3 +486,41 @@ kubectl get pods
 kubectl get services
 kubectl get pods
 kubectl get services
+kubectl apply -f app-prod.yaml
+kubectl apply -f app-test.yaml
+kubectl apply -f app-dev.yaml
+kubectl apply -f app.yaml
+clear
+kubectl get pods
+kubectl get nodes
+kubectl get pods
+kubectl get services
+kubectl get nodes -o wide
+kubectl get services
+kubectl get pods
+kubectl drain stedi-test-felipe-5b965d5ff-4465j
+kubectl get nodes -o wide
+kubectl get pods -o wide
+kubectl drain kubectl get pods -o wide
+kubectl drain gke-cluster-1-default-pool-519a215e-bjmx
+kubectl drain gke-cluster-1-default-pool-519a215e-bjmx --ignore-daemonsets --delete-emptydir-data
+kubectl get pods
+kubectl delete pod stedi-test-felipe-5b965d5ff-hbmwz
+kubectl get pods
+clear
+kubectl get pods
+kubectl describe pod stedi-test-felipe-5b965d5ff-xhwz6
+kubectl describe replica stedi-test-felipe-5b965d5ff
+kubectl describe replicasets stedi-test-felipe-5b965d5ff
+kubectl delete deployment stedi-test-felipe
+kubectl get pods
+kubectl describe stedi-prod-felipe-995886684-q6nsv 
+kubectl describe pod stedi-prod-felipe-995886684-q6nsv 
+kubectl describe replicaset stedi-prod-felipe-995886684
+kubectl delete deployment stedi-prod-felipe
+clear
+kubectl get pods
+kubectl delete deployment stedi-dev-felipe
+kubectl get pods
+clear
+kubectl get pods
