@@ -1,1 +1,0 @@
-INDEX VERSION 1.131+/home/gon19006/.theia/workspace-storage/2fcd0370f6f8d1b7a24ac0262df1dc21/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.jdt.core
