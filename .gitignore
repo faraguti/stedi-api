@@ -32,3 +32,4 @@ stedi-private-main
 .terraform.lock.hcl
 .viminfo
 README-cloudshell.txt
+bash_history
