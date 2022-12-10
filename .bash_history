@@ -1,5 +1,3 @@
-clear
-terraform plan
 kubectl config current-context
 curl -LO https://k8s.io/examples/application/wordpress/mysql-deployment.yaml
 curl -LO https://k8s.io/examples/application/wordpress/wordpress-deployment.yaml
@@ -498,3 +496,5 @@ kubectl get pods
 kubectl get services
 kubectl get service
 kubectl get pods
+kubectl get pods
+kubectl get services

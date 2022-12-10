@@ -17,7 +17,7 @@ steps:
   - name: 'gcr.io/cloud-builders/gke-deploy'
     args:
       - run
-      - --filename=production.yaml
+      - --filename=app-prod.yaml
       - --image=gcr.io/$PROJECT_ID/stedi-felipe:latest
       - --location=us-central1-c
       - --output=/tmp/outputprod
