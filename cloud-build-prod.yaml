@@ -23,7 +23,7 @@ steps:
       - --output=/tmp/outputprod
       - --cluster=cluster-1
 
-  # This step scales up the stedi pod
+  # This step scales up the stedi pod.
   - name: 'gcr.io/cloud-builders/kubectl'
     id: Start Pod
     args:

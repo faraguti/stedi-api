@@ -499,3 +499,10 @@ kubectl get pods
 kubectl get pods
 kubectl get services
 gid add .
+git add .
+git commig -m "final"
+git commit -m "final"
+git config --global user.email faraguti@gmail.com
+git config --global user.name Felipe
+git commit -m "final"
+git push
