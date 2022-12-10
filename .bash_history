@@ -498,3 +498,4 @@ kubectl get service
 kubectl get pods
 kubectl get pods
 kubectl get services
+gid add .

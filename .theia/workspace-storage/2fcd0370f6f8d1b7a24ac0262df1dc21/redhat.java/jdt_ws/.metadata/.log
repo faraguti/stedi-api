@@ -717,3 +717,12 @@ Contains: /home/gon19006 overlaps the workspace location: /home/gon19006/.theia/
 
 !ENTRY org.eclipse.jdt.ls.core 1 0 2022-12-10 03:27:14.352
 !MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-12-10 03:30:35.043
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-12-10 03:30:37.686
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-12-10 03:30:37.697
+!MESSAGE Clearing problems for /SendText.java
