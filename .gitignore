@@ -1,3 +1,11 @@
 cit326
 cit270-rest-api
 backup
+main.tf
+kustomization.yaml
+README-cloudshell.txt
+terraform.tfstate
+terraform.tfstate.backup
+wordpress-deployment.yaml
+mysql-deployment.yaml
+__MACOSX

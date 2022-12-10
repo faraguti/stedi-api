@@ -1,24 +1,3 @@
-}
-#Bulid 6th user, instance and db
-resource "google_sql_database" "postgress-jefferson4" {
-}
-resource "google_sql_database_instance" "postgress-qa-instance" {
-}
-resource "google_sql_user" "postgress-qa-user" {
-}
-clear
-gcloud projects list
-clear
-gcloud projects list
-gcloud config set project cit-326-vm
-clear
-terraform plan
-terraform init
-terraform plan
-clear
-terraform plan
-clear
-terraform plan
 clear
 terraform plan
 kubectl config current-context
@@ -499,3 +478,23 @@ kubectl get services
 kubectl get pods
 clear
 kubectl get services
+ls
+kubectl apply -f app.yaml
+kubectl apply -f app-dev.yaml
+kubectl apply -f app-prod.yaml
+kubectl apply -f app-test.yaml
+clear
+kubectl get services
+kubectl get pods
+kubectl descbribe pod stedi-felipe-prod-d54484b68-qzzsl
+kubectl describe pod stedi-felipe-prod-d54484b68-qzzsl
+kubectl describe replicaset stedi-felipe-prod-d54484b68
+kubectl delete deployment stedi-felipe-prod-d54484b68
+kubectl describe deployment stedi-felipe-prod-d54484b68
+kubectl delete deployment stedi-felipe-prod
+kubectl get pods
+kubectl apply -f app-test.yaml
+kubectl get pods
+kubectl get services
+kubectl get service
+kubectl get pods
